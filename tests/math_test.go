@@ -26,7 +26,7 @@ func TestSubstract(t *testing.T) {
 }
 
 func TestDivision(t *testing.T) {
-	expected := 1
+	expected := 2
 
 	received := math.Subtract(16, 8)
 
