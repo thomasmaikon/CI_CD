@@ -6,7 +6,7 @@ import (
 )
 
 func TestSum(t *testing.T) {
-	expected := 15
+	expected := 14
 
 	received := math.Sum(8, 6)
 
