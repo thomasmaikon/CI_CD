@@ -14,3 +14,13 @@ func TestSum(t *testing.T) {
 		t.Errorf("Value expected [%d] has differente that received [%d]", expected, received)
 	}
 }
+
+func TestSubstract(t *testing.T) {
+	expected := 0
+
+	received := math.Subtract(10, 10)
+
+	if received != expected {
+		t.Errorf("Value expected [%d] has differente that received [%d]", expected, received)
+	}
+}
