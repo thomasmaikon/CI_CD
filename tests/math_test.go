@@ -1,0 +1,16 @@
+package tests
+
+import (
+	"CI/math"
+	"testing"
+)
+
+func TestSum(t *testing.T) {
+	expected := 15
+
+	received := math.Sum(8, 6)
+
+	if received != expected {
+		t.Errorf("Value expected [%d] has differente that received [%d]", expected, received)
+	}
+}
