@@ -24,3 +24,13 @@ func TestSubstract(t *testing.T) {
 		t.Errorf("Value expected [%d] has differente that received [%d]", expected, received)
 	}
 }
+
+func TestDivision(t *testing.T) {
+	expected := 2
+
+	received := math.Division(16, 8)
+
+	if received != expected {
+		t.Errorf("Value expected [%d] has differente that received [%d]", expected, received)
+	}
+}
